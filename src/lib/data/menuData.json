@@ -1,0 +1,293 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": {
+        "en": "Appetizers",
+        "vi": "Khai Vị",
+        "kr": "전채 요리"
+      },
+      "items": [
+        {
+          "id": "app-1",
+          "name": {
+            "en": "Grilled Scallops with Butter",
+            "vi": "Sò Điệp Nướng Bơ",
+            "kr": "버터로 구운 가리비"
+          },
+          "description": {
+            "en": "Fresh scallops grilled to perfection with garlic butter and herbs",
+            "vi": "Sò điệp tươi nướng hoàn hảo với bơ tỏi và thảo mộc",
+            "kr": "신선한 가리비를 마늘 버터와 허브로 완벽하게 구움"
+          },
+          "price": 180000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/scallops.png",
+          "isSpecialty": true
+        },
+        {
+          "id": "app-2",
+          "name": {
+            "en": "Steamed Oysters with Ginger",
+            "vi": "Hàu Hấp Gừng",
+            "kr": "생강과 함께 찐 굴"
+          },
+          "description": {
+            "en": "Premium oysters steamed with fresh ginger and scallions",
+            "vi": "Hàu cao cấp hấp với gừng tươi và hành lá",
+            "kr": "신선한 생강과 파와 함께 찐 고급 굴"
+          },
+          "price": 220000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/oysters.png"
+        },
+        {
+          "id": "app-3",
+          "name": {
+            "en": "Crispy Fried Squid",
+            "vi": "Mực Chiên Giòn",
+            "kr": "바삭한 오징어 튀김"
+          },
+          "description": {
+            "en": "Golden fried squid rings with sweet and sour dipping sauce",
+            "vi": "Mực chiên vàng giòn với nước chấm chua ngọt",
+            "kr": "달콤새콤 소스와 함께 황금빛 바삭한 오징어 링"
+          },
+          "price": 150000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/squid.png"
+        },
+        {
+          "id": "app-4",
+          "name": {
+            "en": "Shrimp Spring Rolls",
+            "vi": "Gỏi Cuốn Tôm",
+            "kr": "새우 스프링롤"
+          },
+          "description": {
+            "en": "Fresh spring rolls with shrimp, vegetables, and vermicelli",
+            "vi": "Gỏi cuốn tươi với tôm, rau và bún",
+            "kr": "새우, 야채, 당면이 들어간 신선한 스프링롤"
+          },
+          "price": 120000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/spring-roll.png"
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": {
+        "en": "Main Dishes",
+        "vi": "Món Chính",
+        "kr": "메인 요리"
+      },
+      "items": [
+        {
+          "id": "main-1",
+          "name": {
+            "en": "Grilled Lobster with Cheese",
+            "vi": "Tôm Hùm Nướng Phô Mai",
+            "kr": "치즈와 함께 구운 바닷가재"
+          },
+          "description": {
+            "en": "Premium lobster grilled with melted cheese and butter sauce",
+            "vi": "Tôm hùm cao cấp nướng với phô mai tan và sốt bơ",
+            "kr": "고급 바닷가재를 녹인 치즈와 버터 소스와 함께 구움"
+          },
+          "price": 850000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/lobster.png",
+          "isSpecialty": true
+        },
+        {
+          "id": "main-2",
+          "name": {
+            "en": "King Crab Hot Pot",
+            "vi": "Lẩu Cua Hoàng Đế",
+            "kr": "킹크랩 전골"
+          },
+          "description": {
+            "en": "Rich and flavorful hot pot with king crab and fresh vegetables",
+            "vi": "Lẩu đậm đà với cua hoàng đế và rau tươi",
+            "kr": "신선한 야채와 함께 진하고 풍미 있는 킹크랩 전골"
+          },
+          "price": 1200000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/crab-hotpot.png",
+          "isSpecialty": true
+        },
+        {
+          "id": "main-3",
+          "name": {
+            "en": "Steamed Sea Bass",
+            "vi": "Cá Chẽm Hấp",
+            "kr": "도미 찜"
+          },
+          "description": {
+            "en": "Fresh sea bass steamed with soy sauce, ginger, and herbs",
+            "vi": "Cá chẽm tươi hấp với xì dầu, gừng và thảo mộc",
+            "kr": "신선한 도미를 간장, 생강, 허브와 함께 찜"
+          },
+          "price": 380000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/sea-bass.png"
+        },
+        {
+          "id": "main-4",
+          "name": {
+            "en": "Grilled Prawns with Salt and Chili",
+            "vi": "Tôm Sú Nướng Muối Ớt",
+            "kr": "소금과 고추로 구운 새우"
+          },
+          "description": {
+            "en": "Large prawns grilled with sea salt and fresh chili",
+            "vi": "Tôm sú lớn nướng với muối biển và ớt tươi",
+            "kr": "큰 새우를 바다 소금과 신선한 고추로 구움"
+          },
+          "price": 450000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/prawns.png",
+          "isSpicy": true
+        },
+        {
+          "id": "main-5",
+          "name": {
+            "en": "Tamarind Glazed Fish",
+            "vi": "Cá Sốt Me",
+            "kr": "타마린드 소스 생선"
+          },
+          "description": {
+            "en": "Deep-fried fish with sweet and tangy tamarind sauce",
+            "vi": "Cá chiên giòn với sốt me chua ngọt",
+            "kr": "달콤하고 새콤한 타마린드 소스와 함께 튀긴 생선"
+          },
+          "price": 320000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/tamarind-fish.png"
+        },
+        {
+          "id": "main-6",
+          "name": {
+            "en": "Seafood Fried Rice",
+            "vi": "Cơm Chiên Hải Sản",
+            "kr": "해산물 볶음밥"
+          },
+          "description": {
+            "en": "Fragrant fried rice with mixed seafood and vegetables",
+            "vi": "Cơm chiên thơm với hải sản tổng hợp và rau củ",
+            "kr": "각종 해산물과 야채를 넣은 향긋한 볶음밥"
+          },
+          "price": 180000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/fried-rice.png"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": {
+        "en": "Beverages",
+        "vi": "Đồ Uống",
+        "kr": "음료"
+      },
+      "items": [
+        {
+          "id": "drink-1",
+          "name": {
+            "en": "Fresh Coconut Water",
+            "vi": "Nước Dừa Tươi",
+            "kr": "신선한 코코넛 워터"
+          },
+          "description": {
+            "en": "Fresh young coconut water served chilled",
+            "vi": "Nước dừa xiêm tươi mát lạnh",
+            "kr": "차갑게 제공되는 신선한 어린 코코넛 워터"
+          },
+          "price": 45000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/coconut.png"
+        },
+        {
+          "id": "drink-2",
+          "name": {
+            "en": "Vietnamese Iced Coffee",
+            "vi": "Cà Phê Sữa Đá",
+            "kr": "베트남식 아이스 커피"
+          },
+          "description": {
+            "en": "Strong Vietnamese coffee with condensed milk over ice",
+            "vi": "Cà phê phin đậm đà với sữa đặc và đá",
+            "kr": "연유와 얼음을 곁들인 진한 베트남 커피"
+          },
+          "price": 40000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/coffee.png"
+        },
+        {
+          "id": "drink-3",
+          "name": {
+            "en": "Fresh Passion Fruit Juice",
+            "vi": "Nước Chanh Leo",
+            "kr": "패션프루트 주스"
+          },
+          "description": {
+            "en": "Refreshing passion fruit juice with honey",
+            "vi": "Nước chanh leo tươi mát với mật ong",
+            "kr": "꿀과 함께 상큼한 패션프루트 주스"
+          },
+          "price": 50000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/passion-fruit.png"
+        },
+        {
+          "id": "drink-4",
+          "name": {
+            "en": "Local Beer",
+            "vi": "Bia Địa Phương",
+            "kr": "지역 맥주"
+          },
+          "description": {
+            "en": "Ice-cold local draft beer",
+            "vi": "Bia tươi địa phương mát lạnh",
+            "kr": "차갑게 제공되는 지역 생맥주"
+          },
+          "price": 35000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/beer.png"
+        },
+        {
+          "id": "drink-5",
+          "name": {
+            "en": "Sparkling Water",
+            "vi": "Nước Khoáng",
+            "kr": "탄산수"
+          },
+          "description": {
+            "en": "Chilled sparkling mineral water",
+            "vi": "Nước khoáng có ga mát lạnh",
+            "kr": "차갑게 제공되는 탄산 미네랄 워터"
+          },
+          "price": 30000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/water.png"
+        }
+      ]
+    }
+  ]
+}

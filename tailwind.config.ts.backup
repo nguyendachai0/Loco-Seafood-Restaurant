@@ -1,0 +1,40 @@
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        ocean: {
+          DEFAULT: '#004466',
+          dark: '#003350',
+          light: '#005580',
+        },
+        gold: {
+          DEFAULT: '#D9A440',
+          light: '#E5B65F',
+          dark: '#C5932D',
+        },
+        coral: {
+          DEFAULT: '#FF6F61',
+          light: '#FF8A7F',
+          dark: '#E65648',
+        },
+        navy: '#333333',
+      },
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-ocean': 'linear-gradient(135deg, #004466 0%, #005580 100%)',
+      },
+    },
+  },
+  plugins: [],
+}
+export default config

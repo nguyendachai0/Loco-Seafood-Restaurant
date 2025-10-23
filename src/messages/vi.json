@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "menu": "Thực Đơn",
+    "location": "Địa Điểm",
+    "contact": "Liên Hệ",
+    "reserve": "Đặt Bàn"
+  },
+  "home": {
+    "hero": {
+      "title": "Tinh Hoa Hải Sản",
+      "subtitle": "Trải nghiệm hải sản Việt Nam đích thực tại trung tâm Đà Nẵng",
+      "cta": "Đặt Bàn Ngay"
+    },
+    "about": {
+      "title": "Tươi Ngon Từ Biển Cả",
+      "description": "Tại Loco Seafood, chúng tôi mang đến hải sản tươi ngon nhất mỗi ngày, chế biến theo kỹ thuật Việt Nam truyền thống với nghệ thuật ẩm thực hiện đại. Cam kết về chất lượng và sự chân thật đã giúp chúng tôi trở thành điểm đến hải sản hàng đầu Đà Nẵng."
+    },
+    "specialties": {
+      "title": "Món Đặc Sắc",
+      "subtitle": "Các món ăn đặc trưng được chế biến bởi đầu bếp hàng đầu của chúng tôi"
+    },
+    "cta": {
+      "title": "Sẵn sàng cho trải nghiệm ẩm thực khó quên?",
+      "description": "Hãy đến dùng bữa trưa hoặc tối với chúng tôi và cảm nhận sự khác biệt từ nguyên liệu tươi ngon, chất lượng cao.",
+      "button": "Đặt Bàn Của Bạn Ngay"
+    }
+  },
+  "menu": {
+    "title": "Thực Đơn Của Chúng Tôi",
+    "subtitle": "Khám phá các lựa chọn món hải sản tươi sống của chúng tôi",
+    "orderOnline": "Đặt Hàng Giao Tận Nơi",
+    "specialty": "Món Đặc Trưng của Đầu Bếp",
+    "spicy": "Cay"
+  },
+  "location": {
+    "title": "Ghé Thăm Chúng Tôi",
+    "subtitle": "Tìm chúng tôi tại trung tâm Đà Nẵng",
+    "address": "Địa Chỉ",
+    "addressLine": "123 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng, Việt Nam",
+    "hours": "Giờ Mở Cửa",
+    "phone": "Điện Thoại",
+    "email": "Thư Điện Tử",
+    "monday": "Thứ Hai",
+    "tuesday": "Thứ Ba",
+    "wednesday": "Thứ Tư",
+    "thursday": "Thứ Năm",
+    "friday": "Thứ Sáu",
+    "saturday": "Thứ Bảy",
+    "sunday": "Chủ Nhật",
+    "closed": "Đóng Cửa",
+    "cta": "Đặt Bàn Của Bạn"
+  },
+  "contact": {
+    "title": "Liên Hệ Với Chúng Tôi",
+    "subtitle": "Có câu hỏi? Chúng tôi rất sẵn lòng lắng nghe",
+    "name": "Họ và Tên",
+    "email": "Địa Chỉ Email",
+    "phone": "Số Điện Thoại",
+    "message": "Lời Nhắn",
+    "submit": "Gửi Lời Nhắn",
+    "info": {
+      "title": "Thông Tin Liên Hệ",
+      "address": "Địa Chỉ",
+      "phone": "Điện Thoại",
+      "email": "Thư Điện Tử",
+      "hours": "Giờ Mở Cửa"
+    }
+  },
+  "reserve": {
+    "title": "Đặt Bàn",
+    "subtitle": "Đặt trước trải nghiệm ẩm thực của bạn cùng chúng tôi",
+    "name": "Họ và Tên",
+    "email": "Địa Chỉ Email",
+    "phone": "Số Điện Thoại",
+    "date": "Ngày Đặt Bàn",
+    "time": "Thời Gian Ưu Tiên",
+    "guests": "Số Lượng Khách",
+    "specialRequests": "Yêu Cầu Đặc Biệt (Tùy Chọn)",
+    "submit": "Xác Nhận Đặt Bàn",
+    "note": "Chúng tôi sẽ xác nhận đặt chỗ qua email trong vòng 24 giờ"
+  },
+  "footer": {
+    "about": {
+      "title": "Loco Seafood",
+      "description": "Điểm đến hàng đầu tại Đà Nẵng cho ẩm thực hải sản Việt Nam đích thực."
+    },
+    "contact": "Thông Tin Liên Hệ",
+    "hours": "Giờ Mở Cửa",
+    "follow": "Theo Dõi Chúng Tôi",
+    "copyright": "© 2025 Loco Seafood. Bảo lưu mọi quyền."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "홈",
+    "menu": "메뉴",
+    "location": "위치",
+    "contact": "문의하기",
+    "reserve": "예약하기"
+  },
+  "home": {
+    "hero": {
+      "title": "바다의 최고 맛",
+      "subtitle": "다낭 중심에서 즐기는 정통 베트남 해산물",
+      "cta": "테이블 예약하기"
+    },
+    "about": {
+      "title": "바다에서 바로 신선하게",
+      "description": "Loco Seafood에서는 매일 신선한 해산물을 전통 베트남 방식과 현대 요리 기술로 준비합니다. 품질과 진정성에 대한 우리의 약속은 다낭 최고의 해산물 맛집으로 자리 잡게 했습니다."
+    },
+    "specialties": {
+      "title": "대표 요리",
+      "subtitle": "우리의 마스터 셰프가 만든 시그니처 요리"
+    },
+    "cta": {
+      "title": "잊지 못할 다이닝 경험을 준비하세요",
+      "description": "점심이나 저녁 식사로 방문하셔서 신선하고 고급 재료가 만들어내는 차이를 느껴보세요.",
+      "button": "지금 테이블 예약하기"
+    }
+  },
+  "menu": {
+    "title": "메뉴",
+    "subtitle": "신선한 해산물 요리를 탐험해보세요",
+    "orderOnline": "배달 주문하기",
+    "specialty": "셰프 추천 요리",
+    "spicy": "매운맛"
+  },
+  "location": {
+    "title": "방문하기",
+    "subtitle": "다낭 중심에서 찾아오세요",
+    "address": "주소",
+    "addressLine": "123 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, 다낭, 베트남",
+    "hours": "영업 시간",
+    "phone": "전화",
+    "email": "이메일",
+    "monday": "월요일",
+    "tuesday": "화요일",
+    "wednesday": "수요일",
+    "thursday": "목요일",
+    "friday": "금요일",
+    "saturday": "토요일",
+    "sunday": "일요일",
+    "closed": "휴무",
+    "cta": "테이블 예약하기"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "질문이 있으신가요? 연락주세요",
+    "name": "이름",
+    "email": "이메일 주소",
+    "phone": "전화번호",
+    "message": "메시지",
+    "submit": "전송",
+    "info": {
+      "title": "연락처 정보",
+      "address": "주소",
+      "phone": "전화",
+      "email": "이메일",
+      "hours": "영업 시간"
+    }
+  },
+  "reserve": {
+    "title": "테이블 예약",
+    "subtitle": "미리 예약하여 특별한 식사를 즐기세요",
+    "name": "이름",
+    "email": "이메일 주소",
+    "phone": "전화번호",
+    "date": "예약 날짜",
+    "time": "희망 시간",
+    "guests": "인원 수",
+    "specialRequests": "특별 요청 (선택 사항)",
+    "submit": "예약 확인",
+    "note": "예약 확인 이메일은 24시간 내로 보내드립니다"
+  },
+  "footer": {
+    "about": {
+      "title": "Loco Seafood",
+      "description": "다낭에서 정통 베트남 해산물 요리를 즐길 수 있는 최고의 장소입니다."
+    },
+    "contact": "연락처 정보",
+    "hours": "영업 시간",
+    "follow": "팔로우하기",
+    "copyright": "© 2025 Loco Seafood. 모든 권리 보유."
+  }
+}

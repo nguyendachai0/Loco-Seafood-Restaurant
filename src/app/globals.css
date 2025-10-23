@@ -1,26 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
+  /* Light theme tokens */
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --foreground: #0f172a;
+  --color-navy: #0f172a;
+  --color-ocean: #004466;
+  --color-gold: #d4af37;
+  --color-gold-dark: #b8860b;
+  --color-coral: #ff6b6b;
+  --color-coral-dark: #e63946;
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #f5f5f5;
   }
 }
 
+/* Define your theme variables inline */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--color-navy);
+  --color-ocean: var(--color-ocean);
+  --color-gold: var(--color-gold);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-coral: var(--color-coral);
+  --color-coral-dark: var(--color-coral-dark);
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+/* Base styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Components layer using Tailwind utilities inline */
+.btn-primary {
+  @apply bg-[--color-gold] hover:bg-[--color-gold-dark] text-white font-semibold px-8 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105;
+}
+
+.btn-secondary {
+  @apply bg-[--color-coral] hover:bg-[--color-coral-dark] text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-300;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-custom {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
 }

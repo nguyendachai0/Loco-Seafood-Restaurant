@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "menu": "Thực Đơn",
+    "location": "Địa Điểm",
+    "contact": "Liên Hệ",
+    "reserve": "Đặt Bàn"
+  },
+  "home": {
+    "hero": {
+      "title": "Tinh Hoa Hải Sản",
+      "subtitle": "Trải nghiệm hải sản Việt Nam đích thực tại trung tâm Đà Nẵng",
+      "cta": "Đặt Bàn Ngay"
+    },
+    "about": {
+      "title": "Tươi Ngon Từ Biển",
+      "description": "Tại Ngọc Trai Đại Dương, chúng tôi mang đến cho bạn những món hải sản tươi sống hàng ngày, được chế biến bằng kỹ thuật truyền thống Việt Nam và nghệ thuật ẩm thực hiện đại. Cam kết về chất lượng và tính chân thực đã khiến chúng tôi trở thành điểm đến hải sản hàng đầu Đà Nẵng."
+    },
+    "specialties": {
+      "title": "Món Đặc Sản",
+      "subtitle": "Những món ăn đặc trưng được chế biến bởi đầu bếp của chúng tôi"
+    },
+    "cta": {
+      "title": "Sẵn Sàng Cho Trải Nghiệm Ẩm Thực Khó Quên?",
+      "description": "Hãy đến với chúng tôi cho bữa trưa hoặc tối và cảm nhận sự khác biệt từ những nguyên liệu tươi ngon, chất lượng.",
+      "button": "Đặt Bàn Ngay"
+    }
+  },
+  "menu": {
+    "title": "Thực Đơn",
+    "subtitle": "Khám phá các món hải sản tươi ngon của chúng tôi",
+    "orderOnline": "Đặt Giao Hàng",
+    "specialty": "Đặc Sản Đầu Bếp",
+    "spicy": "Cay"
+  },
+  "location": {
+    "title": "Ghé Thăm Chúng Tôi",
+    "subtitle": "Tìm chúng tôi tại trung tâm Đà Nẵng",
+    "address": "Địa Chỉ",
+    "addressLine": "123 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng, Việt Nam",
+    "hours": "Giờ Mở Cửa",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "monday": "Thứ Hai",
+    "tuesday": "Thứ Ba",
+    "wednesday": "Thứ Tư",
+    "thursday": "Thứ Năm",
+    "friday": "Thứ Sáu",
+    "saturday": "Thứ Bảy",
+    "sunday": "Chủ Nhật",
+    "closed": "Đóng Cửa",
+    "cta": "Đặt Bàn Ngay"
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Có câu hỏi? Chúng tôi rất vui được nghe từ bạn",
+    "name": "Họ Tên",
+    "email": "Địa Chỉ Email",
+    "phone": "Số Điện Thoại",
+    "message": "Tin Nhắn",
+    "submit": "Gửi Tin Nhắn",
+    "info": {
+      "title": "Thông Tin Liên Hệ",
+      "address": "Địa Chỉ",
+      "phone": "Điện Thoại",
+      "email": "Email",
+      "hours": "Giờ Mở Cửa"
+    }
+  },
+  "reserve": {
+    "title": "Đặt Bàn",
+    "subtitle": "Đặt chỗ cho trải nghiệm ẩm thực của bạn",
+    "name": "Họ Tên",
+    "email": "Địa Chỉ Email",
+    "phone": "Số Điện Thoại",
+    "date": "Ngày Đặt Bàn",
+    "time": "Giờ Ưa Thích",
+    "guests": "Số Khách",
+    "specialRequests": "Yêu Cầu Đặc Biệt (Không Bắt Buộc)",
+    "submit": "Xác Nhận Đặt Bàn",
+    "note": "Chúng tôi sẽ xác nhận đặt chỗ của bạn qua email trong vòng 24 giờ"
+  },
+  "footer": {
+    "about": {
+      "title": "Ngọc Trai Đại Dương",
+      "description": "Điểm đến hàng đầu tại Đà Nẵng cho ẩm thực hải sản Việt Nam đích thực."
+    },
+    "contact": "Thông Tin Liên Hệ",
+    "hours": "Giờ Mở Cửa",
+    "follow": "Theo Dõi Chúng Tôi",
+    "copyright": "© 2025 Ngọc Trai Đại Dương. Bảo lưu mọi quyền."
+  }
+}

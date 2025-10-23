@@ -1,0 +1,260 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": {
+        "en": "Appetizers",
+        "vi": "Khai Vị"
+      },
+      "items": [
+        {
+          "id": "app-1",
+          "name": {
+            "en": "Grilled Scallops with Butter",
+            "vi": "Sò Điệp Nướng Bơ"
+          },
+          "description": {
+            "en": "Fresh scallops grilled to perfection with garlic butter and herbs",
+            "vi": "Sò điệp tươi nướng hoàn hảo với bơ tỏi và thảo mộc"
+          },
+          "price": 180000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/scallops.png",
+          "isSpecialty": true
+        },
+        {
+          "id": "app-2",
+          "name": {
+            "en": "Steamed Oysters with Ginger",
+            "vi": "Hàu Hấp Gừng"
+          },
+          "description": {
+            "en": "Premium oysters steamed with fresh ginger and scallions",
+            "vi": "Hàu cao cấp hấp với gừng tươi và hành lá"
+          },
+          "price": 220000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/oysters.png"
+        },
+        {
+          "id": "app-3",
+          "name": {
+            "en": "Crispy Fried Squid",
+            "vi": "Mực Chiên Giòn"
+          },
+          "description": {
+            "en": "Golden fried squid rings with sweet and sour dipping sauce",
+            "vi": "Mực chiên vàng giòn với nước chấm chua ngọt"
+          },
+          "price": 150000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/squid.png"
+        },
+        {
+          "id": "app-4",
+          "name": {
+            "en": "Shrimp Spring Rolls",
+            "vi": "Gỏi Cuốn Tôm"
+          },
+          "description": {
+            "en": "Fresh spring rolls with shrimp, vegetables, and vermicelli",
+            "vi": "Gỏi cuốn tươi với tôm, rau và bún"
+          },
+          "price": 120000,
+          "currency": "VND",
+          "category": "appetizers",
+          "image": "/images/spring-roll.png"
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": {
+        "en": "Main Dishes",
+        "vi": "Món Chính"
+      },
+      "items": [
+        {
+          "id": "main-1",
+          "name": {
+            "en": "Grilled Lobster with Cheese",
+            "vi": "Tôm Hùm Nướng Phô Mai"
+          },
+          "description": {
+            "en": "Premium lobster grilled with melted cheese and butter sauce",
+            "vi": "Tôm hùm cao cấp nướng với phô mai tan và sốt bơ"
+          },
+          "price": 850000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/lobster.png",
+          "isSpecialty": true
+        },
+        {
+          "id": "main-2",
+          "name": {
+            "en": "King Crab Hot Pot",
+            "vi": "Lẩu Cua Hoàng Đế"
+          },
+          "description": {
+            "en": "Rich and flavorful hot pot with king crab and fresh vegetables",
+            "vi": "Lẩu đậm đà với cua hoàng đế và rau tươi"
+          },
+          "price": 1200000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/crab-hotpot.png",
+          "isSpecialty": true
+        },
+        {
+          "id": "main-3",
+          "name": {
+            "en": "Steamed Sea Bass",
+            "vi": "Cá Chẽm Hấp"
+          },
+          "description": {
+            "en": "Fresh sea bass steamed with soy sauce, ginger, and herbs",
+            "vi": "Cá chẽm tươi hấp với xì dầu, gừng và thảo mộc"
+          },
+          "price": 380000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/sea-bass.png"
+        },
+        {
+          "id": "main-4",
+          "name": {
+            "en": "Grilled Prawns with Salt and Chili",
+            "vi": "Tôm Sú Nướng Muối Ớt"
+          },
+          "description": {
+            "en": "Large prawns grilled with sea salt and fresh chili",
+            "vi": "Tôm sú lớn nướng với muối biển và ớt tươi"
+          },
+          "price": 450000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/prawns.png",
+          "isSpicy": true
+        },
+        {
+          "id": "main-5",
+          "name": {
+            "en": "Tamarind Glazed Fish",
+            "vi": "Cá Sốt Me"
+          },
+          "description": {
+            "en": "Deep-fried fish with sweet and tangy tamarind sauce",
+            "vi": "Cá chiên giòn với sốt me chua ngọt"
+          },
+          "price": 320000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/tamarind-fish.png"
+        },
+        {
+          "id": "main-6",
+          "name": {
+            "en": "Seafood Fried Rice",
+            "vi": "Cơm Chiên Hải Sản"
+          },
+          "description": {
+            "en": "Fragrant fried rice with mixed seafood and vegetables",
+            "vi": "Cơm chiên thơm với hải sản tổng hợp và rau củ"
+          },
+          "price": 180000,
+          "currency": "VND",
+          "category": "mains",
+          "image": "/images/fried-rice.png"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": {
+        "en": "Beverages",
+        "vi": "Đồ Uống"
+      },
+      "items": [
+        {
+          "id": "drink-1",
+          "name": {
+            "en": "Fresh Coconut Water",
+            "vi": "Nước Dừa Tươi"
+          },
+          "description": {
+            "en": "Fresh young coconut water served chilled",
+            "vi": "Nước dừa xiêm tươi mát lạnh"
+          },
+          "price": 45000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/coconut.png"
+        },
+        {
+          "id": "drink-2",
+          "name": {
+            "en": "Vietnamese Iced Coffee",
+            "vi": "Cà Phê Sữa Đá"
+          },
+          "description": {
+            "en": "Strong Vietnamese coffee with condensed milk over ice",
+            "vi": "Cà phê phin đậm đà với sữa đặc và đá"
+          },
+          "price": 40000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/coffee.png"
+        },
+        {
+          "id": "drink-3",
+          "name": {
+            "en": "Fresh Passion Fruit Juice",
+            "vi": "Nước Chanh Leo"
+          },
+          "description": {
+            "en": "Refreshing passion fruit juice with honey",
+            "vi": "Nước chanh leo tươi mát với mật ong"
+          },
+          "price": 50000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/passion-fruit.png"
+        },
+        {
+          "id": "drink-4",
+          "name": {
+            "en": "Local Beer",
+            "vi": "Bia Địa Phương"
+          },
+          "description": {
+            "en": "Ice-cold local draft beer",
+            "vi": "Bia tươi địa phương mát lạnh"
+          },
+          "price": 35000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/beer.png"
+        },
+        {
+          "id": "drink-5",
+          "name": {
+            "en": "Sparkling Water",
+            "vi": "Nước Khoáng"
+          },
+          "description": {
+            "en": "Chilled sparkling mineral water",
+            "vi": "Nước khoáng có ga mát lạnh"
+          },
+          "price": 30000,
+          "currency": "VND",
+          "category": "drinks",
+          "image": "/images/water.png"
+        }
+      ]
+    }
+  ]
+}
