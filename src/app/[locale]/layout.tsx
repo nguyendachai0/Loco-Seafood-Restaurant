@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing'; // use the new routing file
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import ChatWidget from '@/components/shared/ChatWidget';
 import '@/app/globals.css';
 
 export function generateStaticParams() {
@@ -90,6 +91,7 @@ export default async function LocaleLayout({children, params}: Props) {
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="min-h-screen">{children}</main>
+          <ChatWidget/>
           <Footer />
         </NextIntlClientProvider>
       </body>

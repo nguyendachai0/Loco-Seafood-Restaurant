@@ -1,10 +1,63 @@
-# Loco Restaurant - Seafood Restaurant Website
+## Customization
+
+### Update Restaurant Information
+
+Edit `src/lib/utils/constants.ts`:
+
+```typescript
+export const RESTAURANT_INFO = {
+  name: "Your Restaurant Name",
+  phone: "+84 xxx xxx xxxx",
+  address: "Your address",
+  chat: {
+    messenger: "YOUR_FACEBOOK_PAGE_ID", // Get from Facebook Page settings
+    zalo: "0xxxxxxxxx", // Your Zalo phone number
+    whatsapp: "84xxxxxxxxx", // International format, no + or spaces
+  },
+  // ...
+};
+```
+
+### Configure Chat Widget
+
+The floating chat button links to three platforms:
+
+- **Messenger**: Replace `messenger: "YOUR_FACEBOOK_PAGE_ID"` with your actual Facebook Page ID
+  - Find it at: Facebook Page → Settings → Advanced → Page ID
+- **Zalo**: Add your Zalo phone number (Vietnamese format: 0xxxxxxxxx)
+- **WhatsApp**: Add your phone in international format (e.g., 84236123456)
+  - Remove + and spaces from your phone number
+
+**Features:**
+
+- ✅ Fixed position bottom-right corner
+- ✅ 3 chat channels (Messenger, Zalo, WhatsApp)
+- ✅ Responsive: vertical stack on mobile, diagonal on desktop
+- ✅ Click outside to close
+- ✅ Keyboard accessible (Enter/Space/Escape)
+- ✅ Smooth animations
+- ✅ Touch-friendly on mobile
+- ✅ Analytics ready (see console logs)
+
+### Update Menu
+
+Edit `src/lib/data/menuData.json` to add/modify menu items.
+
+### Update Translations
+
+Edit files in `src/messages/en.json` and `src/messages/vi.json`.
+
+### Styling
+
+- Color palette defined in `tailwind.config.ts`
+- Global styles in `src/app/globals.css`
+- Component-specific styles use Tailwind utilities# Ocean's Pearl - Seafood Restaurant Website
 
 A high-performance, fully responsive, bilingual (English/Vietnamese) Next.js 15 website for a premium seafood restaurant in Da Nang.
 
 ## Features
 
-- ✅ **Next.js 16** with App Router (async params support)
+- ✅ **Next.js 15** with App Router (async params support)
 - ✅ **TypeScript** for type safety
 - ✅ **Tailwind CSS** for modern, responsive design
 - ✅ **Dual-language support** (English/Vietnamese) with next-intl
@@ -12,6 +65,7 @@ A high-performance, fully responsive, bilingual (English/Vietnamese) Next.js 15 
 - ✅ **SEO-optimized** with Restaurant Schema markup
 - ✅ **Modular architecture** with reusable components
 - ✅ **Clean separation** of concerns (components, utils, types, data)
+- ✅ **Floating chat widget** with Messenger, Zalo, WhatsApp integration
 
 ## Project Structure
 
@@ -55,8 +109,8 @@ npm install next-intl
 
 4. **Add placeholder images** to `public/images/`:
 
-   - `hero-seafood.png`
-   - `fresh-catch.png`
+   - `hero-seafood.jpg`
+   - `fresh-catch.jpg`
    - `placeholder-dish.jpg`
    - Individual dish images referenced in `menuData.json`
 
