@@ -98,6 +98,7 @@ export default function Header() {
               ))}
               <Button 
                 href={`/${locale}${ROUTES.reserve}`}
+                onClick={() => setIsMenuOpen(false)} 
                 variant="primary"
                 size="md"
                 fullWidth
