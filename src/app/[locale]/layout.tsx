@@ -11,13 +11,13 @@ export function generateStaticParams() {
 }
 
 export const metadata = {
-  title: "Ocean's Pearl - Premium Seafood Restaurant in Da Nang",
+  title: "Loco Restaurant - Premium Seafood Restaurant in Da Nang",
   description:
-    "Experience authentic Vietnamese seafood cuisine at Ocean's Pearl. Fresh catches daily, traditional recipes, modern presentation.",
+    "Experience authentic Vietnamese seafood cuisine at Loco Restaurant. Fresh catches daily, traditional recipes, modern presentation.",
   keywords:
     'seafood restaurant, Da Nang dining, Vietnamese cuisine, fresh seafood, ocean pearl',
   openGraph: {
-    title: "Ocean's Pearl Seafood Restaurant",
+    title: "Loco Restaurant Seafood Restaurant",
     description:
       "Da Nang's premier destination for authentic Vietnamese seafood",
     type: 'website',

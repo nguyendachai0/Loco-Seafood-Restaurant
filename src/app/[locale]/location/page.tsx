@@ -5,7 +5,7 @@ import Button from '@/components/ui/Button';
 import { RESTAURANT_INFO, ROUTES } from '@/lib/utils/constants';
 
 export const metadata = {
-  title: "Location - Ocean's Pearl Seafood Restaurant",
+  title: "Location - Loco Seafood Restaurant",
   description: 'Visit us at 123 Võ Nguyên Giáp, Da Nang. Check our opening hours and get directions.',
 };
 

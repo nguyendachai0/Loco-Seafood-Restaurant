@@ -1,10 +1,10 @@
-# Ocean's Pearl - Seafood Restaurant Website
+# Loco Restaurant - Seafood Restaurant Website
 
 A high-performance, fully responsive, bilingual (English/Vietnamese) Next.js 15 website for a premium seafood restaurant in Da Nang.
 
 ## Features
 
-- ✅ **Next.js 15** with App Router (async params support)
+- ✅ **Next.js 16** with App Router (async params support)
 - ✅ **TypeScript** for type safety
 - ✅ **Tailwind CSS** for modern, responsive design
 - ✅ **Dual-language support** (English/Vietnamese) with next-intl
