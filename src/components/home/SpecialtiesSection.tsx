@@ -1,9 +1,10 @@
+'use client';
+
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import Section from '@/components/ui/Section';
 import Card from '@/components/ui/Card';
 import menuData from '@/lib/data/menuData.json';
-import { MenuItem } from '@/types';
 import { formatPrice } from '@/lib/utils/format';
 
 export default function SpecialtiesSection() {
@@ -12,7 +13,7 @@ export default function SpecialtiesSection() {
 
   const specialties = menuData.categories
     .flatMap(category => category.items)
-    .filter((item): item is MenuItem => item.isSpecialty === true)
+    .filter(item => item.isSpecialty === true)
     .slice(0, 3);
 
   return (
@@ -32,7 +33,7 @@ export default function SpecialtiesSection() {
             <div className="relative h-64">
               <Image
                 src={item.image || '/images/placeholder-dish.jpg'}
-                alt={item.name[locale]}
+                alt={item.name[locale] || 'Specialty dish'}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -40,10 +41,10 @@ export default function SpecialtiesSection() {
             </div>
             <div className="p-6">
               <h3 className="text-xl font-serif font-bold text-ocean mb-2">
-                {item.name[locale]}
+                {item.name[locale as keyof typeof item.name]}
               </h3>
               <p className="text-gray-600 mb-4">
-                {item.description[locale]}
+                {item.description[locale as keyof typeof item.description]}
               </p>
               <p className="text-2xl font-bold text-gold">
                 {formatPrice(item.price, item.currency, locale)}

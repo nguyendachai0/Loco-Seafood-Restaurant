@@ -3,10 +3,12 @@ export interface MenuItem {
   name: {
     en: string;
     vi: string;
+    kr: string;
   };
   description: {
     en: string;
     vi: string;
+    kr: string;
   };
   price: number;
   currency: string;
@@ -21,6 +23,7 @@ export interface MenuCategory {
   name: {
     en: string;
     vi: string;
+    kr: string;
   };
   items: MenuItem[];
 }

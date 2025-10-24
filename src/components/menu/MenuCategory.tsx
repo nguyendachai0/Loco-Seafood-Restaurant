@@ -1,3 +1,5 @@
+'use client';
+
 import { useLocale } from 'next-intl';
 import { MenuCategory as MenuCategoryType } from '@/types';
 import MenuItem from './MenuItem';

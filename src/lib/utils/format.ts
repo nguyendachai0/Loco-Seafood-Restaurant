@@ -1,4 +1,4 @@
-import { Locale } from '../i18n';
+import { Locale } from "next-intl";
 
 export function formatPrice(price: number, currency: string, locale: Locale): string {
   if (currency === 'VND') {

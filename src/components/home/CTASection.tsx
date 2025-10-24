@@ -1,11 +1,14 @@
-import { useTranslations, useLocale } from 'next-intl';
+'use client';
+
+import { useTranslations } from 'next-intl';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
 import { ROUTES } from '@/lib/utils/constants';
+import { useLocalePath } from '@/lib/utils/navigation';
 
 export default function CTASection() {
   const t = useTranslations('home.cta');
-  const locale = useLocale();
+  const getPath = useLocalePath();
 
   return (
     <Section background="ocean" padding="lg">
@@ -17,7 +20,7 @@ export default function CTASection() {
           {t('description')}
         </p>
         <Button 
-          href={`/${locale}${ROUTES.reserve}`}
+          href={getPath(ROUTES.reserve)}
           variant="primary"
           size="lg"
           className="shadow-2xl"

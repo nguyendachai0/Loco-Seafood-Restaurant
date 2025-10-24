@@ -1,17 +1,13 @@
-import { useTranslations, useLocale } from 'next-intl';
+'use client';
+
+import { useTranslations } from 'next-intl';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
 import MenuCategory from '@/components/menu/MenuCategory';
 import menuData from '@/lib/data/menuData.json';
 
-export const metadata = {
-  title: "Menu - Ocean's Pearl Seafood Restaurant",
-  description: 'Explore our selection of fresh seafood dishes, from appetizers to main courses and beverages.',
-};
-
 export default function MenuPage() {
   const t = useTranslations('menu');
-  const locale = useLocale();
 
   return (
     <>
