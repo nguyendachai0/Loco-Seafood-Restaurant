@@ -20,7 +20,7 @@ export default function MenuHubPage() {
       features: ['alacarte.feature1', 'alacarte.feature2', 'alacarte.feature3'],
       ctaKey: 'alacarte.cta',
       href: getPath('/menu/alacarte'),
-      badge: 'Most Popular',
+      badgeKey: 'alacarte.badge',
       badgeColor: 'bg-gold',
       color: 'ocean',
       image: '/images/alacarte-preview.png'
@@ -33,7 +33,7 @@ export default function MenuHubPage() {
       features: ['gala.feature1', 'gala.feature2', 'gala.feature3'],
       ctaKey: 'gala.cta',
       href: getPath('/menu/gala'),
-      badge: 'Min. 50 Guests',
+      badgeKey: 'gala.badge',
       badgeColor: 'bg-coral',
       color: 'coral',
       image: '/images/gala-preview.png'
@@ -46,7 +46,7 @@ export default function MenuHubPage() {
       features: ['tour.feature1', 'tour.feature2', 'tour.feature3'],
       ctaKey: 'tour.cta',
       href: getPath('/menu/tour-partner'),
-      badge: 'Verified Partners',
+      badgeKey: 'tour.badge',
       badgeColor: 'bg-ocean',
       color: 'ocean-dark',
       image: '/images/tour-preview.png'
@@ -92,7 +92,7 @@ export default function MenuHubPage() {
                   />
                   {/* Badge */}
                   <div className={`absolute top-4 right-4 ${menu.badgeColor} text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg`}>
-                    {menu.badge}
+                    {t(menu.badgeKey)}
                   </div>
                 </div>
 

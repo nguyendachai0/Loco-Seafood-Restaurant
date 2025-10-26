@@ -52,7 +52,8 @@
       "feature1": "Fresh daily catches and seasonal specials",
       "feature2": "Dine-in, takeout, and delivery available",
       "feature3": "Perfect for individuals and small groups",
-      "cta": "View Today's Menu"
+      "cta": "View Today's Menu",
+      "badge": "Most Popular"
     },
     "gala": {
       "title": "Gala Dinner & Events",
@@ -60,7 +61,8 @@
       "feature1": "Minimum 50 guests required",
       "feature2": "3 premium package tiers available",
       "feature3": "Full event planning and coordination",
-      "cta": "View Event Packages"
+      "cta": "View Event Packages",
+      "badge": "Min. 50 Guests"
     },
     "tour": {
       "title": "Tour Partner Menu",
@@ -68,7 +70,8 @@
       "feature1": "Special B2B pricing and commissions",
       "feature2": "Streamlined service for large groups",
       "feature3": "Verified partners only",
-      "cta": "Request Partner Access"
+      "cta": "Request Partner Access",
+      "badge": "Verified Partners"
     },
     "help": {
       "title": "Need Help Choosing?",

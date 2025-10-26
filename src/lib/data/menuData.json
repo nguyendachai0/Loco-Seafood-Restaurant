@@ -11,19 +11,19 @@
         {
           "id": "app-1",
           "name": {
-            "en": "Grilled Scallops with Butter",
-            "vi": "Sò Điệp Nướng Bơ",
-            "kr": "버터로 구운 가리비"
+            "en": "Seafood Spring Rolls Loco",
+            "vi": "Chả Giò Hải Sản Loco",
+            "kr": "로코 해산물 스프링롤"
           },
           "description": {
-            "en": "Fresh scallops grilled to perfection with garlic butter and herbs",
-            "vi": "Sò điệp tươi nướng hoàn hảo với bơ tỏi và thảo mộc",
-            "kr": "신선한 가리비를 마늘 버터와 허브로 완벽하게 구움"
+            "en": "Crispy seafood spring rolls filled with fresh shrimp and squid, served with a signature sweet and sour dipping sauce.",
+            "vi": "Chả giò hải sản giòn rụm, nhân tôm mực tươi, kết hợp rau thơm và nước chấm chua ngọt đặc trưng..",
+            "kr": "신선한 새우와 오징어가 들어간 바삭한 해산물 스프링롤로, 상큼달콤한 특제 소스와 함께 제공됩니다."
           },
-          "price": 180000,
+          "price": 129000,
           "currency": "VND",
           "category": "appetizers",
-          "image": "/images/scallops.png",
+          "image": "/images/seafood-spring-rolls.png",
           "isSpecialty": true
         },
         {
@@ -90,37 +90,37 @@
         {
           "id": "main-1",
           "name": {
-            "en": "Grilled Lobster with Cheese",
-            "vi": "Tôm Hùm Nướng Phô Mai",
-            "kr": "치즈와 함께 구운 바닷가재"
+            "en": "Grilled Oysters with Cheese",
+            "vi": "Hàu Nướng Phô Mai",
+            "kr": "치즈 굴구이"
           },
           "description": {
-            "en": "Premium lobster grilled with melted cheese and butter sauce",
-            "vi": "Tôm hùm cao cấp nướng với phô mai tan và sốt bơ",
-            "kr": "고급 바닷가재를 녹인 치즈와 버터 소스와 함께 구움"
+            "en": "Fresh oysters grilled with rich melted cheese and butter garlic aroma, golden and irresistible.",
+            "vi": "Hàu tươi nướng phủ phô mai béo ngậy, vàng ươm và thơm lừng hương bơ tỏi.",
+            "kr": "신선한 굴 위에 치즈와 버터 마늘 향을 더해 구운 고소하고 풍미 가득한 요리입니다."
           },
-          "price": 850000,
+          "price": 149000,
           "currency": "VND",
           "category": "mains",
-          "image": "/images/lobster.png",
+          "image": "/images/grilled-oysters-cheese.png",
           "isSpecialty": true
         },
         {
           "id": "main-2",
           "name": {
-            "en": "King Crab Hot Pot",
-            "vi": "Lẩu Cua Hoàng Đế",
-            "kr": "킹크랩 전골"
+            "en": "Royal Seafood Boat Hotpot (Large Size)",
+            "vi": "Lẩu Tiến Vua (Size Đại)",
+            "kr": "로열 해산물 보트 전골 (대형)"
           },
           "description": {
-            "en": "Rich and flavorful hot pot with king crab and fresh vegetables",
-            "vi": "Lẩu đậm đà với cua hoàng đế và rau tươi",
-            "kr": "신선한 야채와 함께 진하고 풍미 있는 킹크랩 전골"
+            "en": "Premium seafood hotpot with crab, prawns, squid, clams, fish, and fresh vegetables — flavorful and perfect for 5–6 people.",
+            "vi": "Lẩu hải sản cao cấp gồm cua, tôm, mực, nghêu, cá và rau tươi, đậm đà và hấp dẫn – đủ cho 5–6 người.",
+            "kr": "게, 새우, 오징어, 조개, 생선, 신선한 채소가 듬뿍 들어간 고급 해산물 전골로, 5~6인용의 푸짐한 요리입니다."
           },
-          "price": 1200000,
+          "price": 1590000,
           "currency": "VND",
           "category": "mains",
-          "image": "/images/crab-hotpot.png",
+          "image": "/images/royal-seafood-hotpot.png",
           "isSpecialty": true
         },
         {

@@ -52,7 +52,8 @@
       "feature1": "Hải sản tươi sống hàng ngày theo mùa",
       "feature2": "Phục vụ tại chỗ, mang về và giao hàng",
       "feature3": "Phù hợp cho cá nhân và nhóm nhỏ",
-      "cta": "Xem Thực Đơn Hôm Nay"
+      "cta": "Xem Thực Đơn Hôm Nay",
+      "badge": "Phổ Biến Nhất"
     },
     "gala": {
       "title": "Tiệc Gala & Sự Kiện",
@@ -60,7 +61,8 @@
       "feature1": "Tối thiểu 50 khách",
       "feature2": "3 gói tiệc cao cấp",
       "feature3": "Dịch vụ tổ chức sự kiện trọn gói",
-      "cta": "Xem Gói Tiệc"
+      "cta": "Xem Gói Tiệc",
+      "badge": "Tối Thiểu 50 Khách"
     },
     "tour": {
       "title": "Thực Đơn Đối Tác Tour",
@@ -68,7 +70,8 @@
       "feature1": "Giá B2B và hoa hồng đặc biệt",
       "feature2": "Phục vụ nhanh cho nhóm đông",
       "feature3": "Chỉ dành cho đối tác đã xác minh",
-      "cta": "Yêu Cầu Truy Cập Đối Tác"
+      "cta": "Yêu Cầu Truy Cập Đối Tác",
+      "badge": "Đối Tác Xác Minh"
     },
     "help": {
       "title": "Cần Giúp Lựa Chọn?",

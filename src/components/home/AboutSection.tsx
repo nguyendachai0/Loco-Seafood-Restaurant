@@ -10,7 +10,7 @@ export default function AboutSection() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
           <Image
-            src="/images/fresh-catch.png"
+            src="/images/fresh-catch.jpg"
             alt="Fresh seafood selection"
             fill
             className="object-cover"
