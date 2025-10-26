@@ -2,10 +2,12 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Container from '@/components/ui/Container';
 import { RESTAURANT_INFO } from '@/lib/utils/constants';
+import { useLocalePath } from '@/lib/utils/navigation';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
+  const getPath = useLocalePath();
 
   return (
     <footer className="bg-navy text-white/90">

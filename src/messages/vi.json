@@ -13,25 +13,208 @@
       "cta": "Đặt Bàn Ngay"
     },
     "about": {
-      "title": "Tươi Ngon Từ Biển Cả",
-      "description": "Tại Loco Seafood, chúng tôi mang đến hải sản tươi ngon nhất mỗi ngày, chế biến theo kỹ thuật Việt Nam truyền thống với nghệ thuật ẩm thực hiện đại. Cam kết về chất lượng và sự chân thật đã giúp chúng tôi trở thành điểm đến hải sản hàng đầu Đà Nẵng."
+      "title": "Tươi Ngon Từ Biển",
+      "description": "Tại Nhà Hàng LoCo, chúng tôi mang đến cho bạn những món hải sản tươi sống hàng ngày, được chế biến bằng kỹ thuật truyền thống Việt Nam và nghệ thuật ẩm thực hiện đại. Cam kết về chất lượng và tính chân thực đã khiến chúng tôi trở thành điểm đến hải sản hàng đầu Đà Nẵng."
     },
     "specialties": {
-      "title": "Món Đặc Sắc",
-      "subtitle": "Các món ăn đặc trưng được chế biến bởi đầu bếp hàng đầu của chúng tôi"
+      "title": "Món Đặc Sản",
+      "subtitle": "Những món ăn đặc trưng được chế biến bởi đầu bếp của chúng tôi"
     },
     "cta": {
-      "title": "Sẵn sàng cho trải nghiệm ẩm thực khó quên?",
-      "description": "Hãy đến dùng bữa trưa hoặc tối với chúng tôi và cảm nhận sự khác biệt từ nguyên liệu tươi ngon, chất lượng cao.",
-      "button": "Đặt Bàn Của Bạn Ngay"
+      "title": "Sẵn Sàng Cho Trải Nghiệm Ẩm Thực Khó Quên?",
+      "description": "Hãy đến với chúng tôi cho bữa trưa hoặc tối và cảm nhận sự khác biệt từ những nguyên liệu tươi ngon, chất lượng.",
+      "button": "Đặt Bàn Ngay"
     }
   },
   "menu": {
-    "title": "Thực Đơn Của Chúng Tôi",
-    "subtitle": "Khám phá các lựa chọn món hải sản tươi sống của chúng tôi",
-    "orderOnline": "Đặt Hàng Giao Tận Nơi",
-    "specialty": "Món Đặc Trưng của Đầu Bếp",
-    "spicy": "Cay"
+    "title": "Thực Đơn",
+    "subtitle": "Khám phá các món hải sản tươi ngon của chúng tôi",
+    "orderOnline": "Đặt Giao Hàng",
+    "orderOnlineDescription": "Thưởng thức món ăn yêu thích tại nhà",
+    "specialty": "Đặc Sản Đầu Bếp",
+    "spicy": "Cay",
+    "breadcrumb": {
+      "menu": "Thực Đơn",
+      "alacarte": "Thực Đơn À La Carte"
+    },
+    "reserveTitle": "Dùng Bữa Cùng Chúng Tôi",
+    "reserveDescription": "Đặt bàn cho trải nghiệm ẩm thực khó quên",
+    "reserve": "Đặt Bàn"
+  },
+  "menuHub": {
+    "hero": {
+      "title": "Chọn Thực Đơn Phù Hợp",
+      "subtitle": "Lựa chọn trải nghiệm ẩm thực phù hợp với dịp của bạn"
+    },
+    "alacarte": {
+      "title": "Thực Đơn À La Carte",
+      "description": "Lựa chọn hải sản tươi ngon hàng ngày cho bữa ăn tại nhà hàng hoặc mang về",
+      "feature1": "Hải sản tươi sống hàng ngày theo mùa",
+      "feature2": "Phục vụ tại chỗ, mang về và giao hàng",
+      "feature3": "Phù hợp cho cá nhân và nhóm nhỏ",
+      "cta": "Xem Thực Đơn Hôm Nay"
+    },
+    "gala": {
+      "title": "Tiệc Gala & Sự Kiện",
+      "description": "Thực đơn set nhiều món cho tiệc công ty lớn và sự kiện riêng tư",
+      "feature1": "Tối thiểu 50 khách",
+      "feature2": "3 gói tiệc cao cấp",
+      "feature3": "Dịch vụ tổ chức sự kiện trọn gói",
+      "cta": "Xem Gói Tiệc"
+    },
+    "tour": {
+      "title": "Thực Đơn Đối Tác Tour",
+      "description": "Thực đơn đặc biệt và giá ưu đãi cho công ty du lịch và đại lý",
+      "feature1": "Giá B2B và hoa hồng đặc biệt",
+      "feature2": "Phục vụ nhanh cho nhóm đông",
+      "feature3": "Chỉ dành cho đối tác đã xác minh",
+      "cta": "Yêu Cầu Truy Cập Đối Tác"
+    },
+    "help": {
+      "title": "Cần Giúp Lựa Chọn?",
+      "description": "Đội ngũ của chúng tôi sẵn sàng giúp bạn chọn thực đơn phù hợp",
+      "cta": "Liên Hệ Chúng Tôi"
+    }
+  },
+  "galaMenu": {
+    "breadcrumb": "Tiệc Gala & Sự Kiện",
+    "hero": {
+      "title": "Tiệc Gala & Sự Kiện",
+      "subtitle": "Trải nghiệm ẩm thực khó quên cho những dịp quan trọng nhất",
+      "cta": "Yêu Cầu Báo Giá",
+      "downloadPdf": "Tải Menu PDF"
+    },
+    "packages": {
+      "title": "Các Gói Tiệc",
+      "subtitle": "Chọn gói tiệc hoàn hảo cho sự kiện của bạn",
+      "perPerson": "/ người",
+      "courses": "món",
+      "minGuests": "Tối thiểu 50 khách",
+      "mostPopular": "Phổ Biến Nhất",
+      "requestQuote": "Yêu Cầu Báo Giá"
+    },
+    "gallery": {
+      "title": "Thư Viện Sự Kiện",
+      "subtitle": "Các sự kiện công ty và lễ kỷ niệm gần đây",
+      "view": "Xem"
+    },
+    "quoteForm": {
+      "title": "Yêu Cầu Báo Giá Sự Kiện",
+      "name": "Họ Tên",
+      "company": "Công Ty/Tổ Chức",
+      "email": "Email",
+      "phone": "Số Điện Thoại",
+      "eventDate": "Ngày Tổ Chức",
+      "guestCount": "Số Lượng Khách",
+      "guestSelect": "Chọn...",
+      "guests50_100": "50-100 khách",
+      "guests100_200": "100-200 khách",
+      "guests200_300": "200-300 khách",
+      "guests300plus": "Trên 300 khách",
+      "details": "Chi Tiết Bổ Sung",
+      "detailsPlaceholder": "Hãy cho chúng tôi biết về sự kiện, gói tiệc ưa thích, yêu cầu về thực đơn, v.v.",
+      "note": "Đội ngũ tổ chức sự kiện sẽ liên hệ với bạn trong vòng 24 giờ với báo giá chi tiết và các lựa chọn thực đơn",
+      "cancel": "Hủy",
+      "submit": "Gửi Yêu Cầu"
+    }
+  },
+  "tourMenu": {
+    "breadcrumb": "Thực Đơn Đối Tác Tour",
+    "hero": {
+      "title": "Chương Trình Đối Tác Tour",
+      "subtitle": "Thực đơn và giá độc quyền cho công ty du lịch đã xác minh",
+      "cta": "Yêu Cầu Truy Cập",
+      "partnerOnly": "Chỉ Dành Cho Đối Tác B2B",
+      "accessGranted": "Đã Cấp Quyền Truy Cập - Vui lòng kiểm tra email để xem PDF"
+    },
+    "benefits": {
+      "title": "Tại Sao Nên Trở Thành Đối Tác?",
+      "subtitle": "Quyền lợi độc quyền cho các công ty du lịch được xác minh",
+      "items": [
+        {
+          "title": "Giá Cạnh Tranh",
+          "description": "Giá đặc biệt cho nhóm và chiết khấu theo số lượng cho công ty du lịch"
+        },
+        {
+          "title": "Phục Vụ Nhanh",
+          "description": "Dịch vụ hiệu quả cho đoàn lớn với thực đơn có sẵn"
+        },
+        {
+          "title": "Tùy Chọn Linh Hoạt",
+          "description": "Nhiều cấp độ thực đơn phù hợp với các gói tour khác nhau"
+        },
+        {
+          "title": "Hoa Hồng Hấp Dẫn",
+          "description": "Tỷ lệ hoa hồng hấp dẫn cho đối tác được xác minh"
+        }
+      ]
+    },
+    "menuOverview": {
+      "title": "Tổng Quan Các Gói Thực Đơn",
+      "subtitle": "Lựa chọn linh hoạt cho mọi gói tour",
+      "mostPopular": "Phổ Biến Nhất",
+      "tiers": {
+        "standard": {
+          "name": "Tiêu Chuẩn",
+          "price": "180.000 VND",
+          "courses": "3"
+        },
+        "deluxe": {
+          "name": "Cao Cấp",
+          "price": "280.000 VND",
+          "courses": "4"
+        },
+        "premium": {
+          "name": "Thượng Hạng",
+          "price": "380.000 VND",
+          "courses": "5"
+        }
+      },
+      "courses": "món",
+      "per": "mỗi khách",
+      "requestAccess": "Yêu cầu quyền truy cập để xem chi tiết"
+    },
+    "cta": {
+      "title": "Sẵn Sàng Trở Thành Đối Tác?",
+      "subtitle": "Tham gia mạng lưới các công ty du lịch uy tín",
+      "requestAccess": "Yêu Cầu Quyền Truy Cập",
+      "contactTeam": "Liên Hệ Đội Ngũ Đối Tác"
+    },
+    "form": {
+      "title": "Yêu Cầu Quyền Truy Cập Đối Tác Tour",
+      "subtitle": "Điền vào mẫu để nhận thực đơn và bảng giá đối tác tour đầy đủ",
+      "name": "Họ Tên",
+      "company": "Tên Công Ty",
+      "email": "Email Doanh Nghiệp",
+      "phone": "Số Điện Thoại",
+      "companyType": "Loại Hình Doanh Nghiệp",
+      "companyTypePlaceholder": "Chọn loại hình kinh doanh...",
+      "companyTypes": {
+        "tourOperator": "Công Ty Điều Hành Tour",
+        "travelAgency": "Công Ty Du Lịch",
+        "hotelConcierge": "Lễ Tân Khách Sạn/Resort",
+        "corporateTravel": "Quản Lý Du Lịch Doanh Nghiệp",
+        "other": "Doanh Nghiệp Du Lịch Khác"
+      },
+      "additionalInfo": "Thông Tin Bổ Sung",
+      "additionalInfoPlaceholder": "Hãy cho chúng tôi biết về doanh nghiệp của bạn, quy mô đoàn trung bình, tần suất đặt chỗ, v.v.",
+      "nextStepsTitle": "Các Bước Tiếp Theo",
+      "nextSteps": {
+        "step1": "1. Bạn sẽ nhận được PDF Thực Đơn Đối Tác Tour ngay qua email",
+        "step2": "2. Đội ngũ đối tác sẽ liên hệ trong vòng 24 giờ",
+        "step3": "3. Chúng tôi sẽ lên lịch trao đổi về cơ cấu hoa hồng và quy trình kết nối"
+      },
+      "cancel": "Hủy",
+      "submit": "Yêu Cầu Truy Cập & Tải PDF"
+    },
+    "success": {
+      "title": "Đã Cấp Quyền Truy Cập!",
+      "message": "Vui lòng kiểm tra email để xem PDF Thực Đơn Đối Tác Tour đầy đủ với giá và chi tiết hoa hồng.",
+      "contact": "Đội ngũ đối tác sẽ liên hệ với bạn trong vòng 24 giờ."
+    },
+    "alert": {
+      "success": "Cảm ơn bạn! Chúng tôi đã gửi Thực Đơn Đối Tác Tour qua email. Đội ngũ đối tác sẽ liên hệ với bạn trong vòng 24 giờ."
+    }
   },
   "location": {
     "title": "Ghé Thăm Chúng Tôi",
@@ -40,7 +223,7 @@
     "addressLine": "123 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng, Việt Nam",
     "hours": "Giờ Mở Cửa",
     "phone": "Điện Thoại",
-    "email": "Thư Điện Tử",
+    "email": "Email",
     "monday": "Thứ Hai",
     "tuesday": "Thứ Ba",
     "wednesday": "Thứ Tư",
@@ -49,45 +232,49 @@
     "saturday": "Thứ Bảy",
     "sunday": "Chủ Nhật",
     "closed": "Đóng Cửa",
-    "cta": "Đặt Bàn Của Bạn"
+    "cta": "Đặt Bàn Ngay"
   },
   "contact": {
-    "title": "Liên Hệ Với Chúng Tôi",
-    "subtitle": "Có câu hỏi? Chúng tôi rất sẵn lòng lắng nghe",
-    "name": "Họ và Tên",
+    "title": "Liên Hệ",
+    "subtitle": "Có câu hỏi? Chúng tôi rất vui được nghe từ bạn",
+    "name": "Họ Tên",
     "email": "Địa Chỉ Email",
     "phone": "Số Điện Thoại",
-    "message": "Lời Nhắn",
-    "submit": "Gửi Lời Nhắn",
+    "message": "Tin Nhắn",
+    "submit": "Gửi Tin Nhắn",
     "info": {
       "title": "Thông Tin Liên Hệ",
       "address": "Địa Chỉ",
       "phone": "Điện Thoại",
-      "email": "Thư Điện Tử",
+      "email": "Email",
       "hours": "Giờ Mở Cửa"
     }
   },
   "reserve": {
     "title": "Đặt Bàn",
-    "subtitle": "Đặt trước trải nghiệm ẩm thực của bạn cùng chúng tôi",
-    "name": "Họ và Tên",
+    "subtitle": "Đặt chỗ cho trải nghiệm ẩm thực của bạn",
+    "name": "Họ Tên",
     "email": "Địa Chỉ Email",
     "phone": "Số Điện Thoại",
     "date": "Ngày Đặt Bàn",
-    "time": "Thời Gian Ưu Tiên",
-    "guests": "Số Lượng Khách",
-    "specialRequests": "Yêu Cầu Đặc Biệt (Tùy Chọn)",
+    "time": "Giờ Ưa Thích",
+    "timeSelect": "Chọn giờ",
+    "guests": "Số Khách",
+    "guest": "khách",
+    "guests_plural": "khách",
+    "specialRequests": "Yêu Cầu Đặc Biệt (Không Bắt Buộc)",
+    "specialRequestsPlaceholder": "Bạn có yêu cầu về chế độ ăn, dị ứng hoặc dịp đặc biệt không?",
     "submit": "Xác Nhận Đặt Bàn",
-    "note": "Chúng tôi sẽ xác nhận đặt chỗ qua email trong vòng 24 giờ"
+    "note": "Chúng tôi sẽ xác nhận đặt chỗ của bạn qua email trong vòng 24 giờ"
   },
   "footer": {
     "about": {
-      "title": "Loco Seafood",
+      "title": "Nhà Hàng LoCo",
       "description": "Điểm đến hàng đầu tại Đà Nẵng cho ẩm thực hải sản Việt Nam đích thực."
     },
     "contact": "Thông Tin Liên Hệ",
     "hours": "Giờ Mở Cửa",
     "follow": "Theo Dõi Chúng Tôi",
-    "copyright": "© 2025 Loco Seafood. Bảo lưu mọi quyền."
+    "copyright": "© 2025 Nhà Hàng LoCo. Bảo lưu mọi quyền."
   }
 }

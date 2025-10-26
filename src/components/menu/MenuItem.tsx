@@ -1,6 +1,6 @@
 'use client';
 
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { MenuItem as MenuItemType } from '@/types';
 import { formatPrice } from '@/lib/utils/format';
@@ -11,6 +11,7 @@ interface MenuItemProps {
 
 export default function MenuItem({ item }: MenuItemProps) {
   const locale = useLocale() as 'en' | 'vi';
+  const t = useTranslations('menu');
 
   return (
     <div className="py-6 border-b border-gray-200 last:border-b-0 hover:bg-gray-50 transition-colors rounded-lg px-4">
@@ -38,12 +39,12 @@ export default function MenuItem({ item }: MenuItemProps) {
             <div className="flex flex-wrap gap-1.5">
               {item.isSpecialty && (
                 <span className="inline-block px-2 py-0.5 text-xs bg-gold text-white rounded whitespace-nowrap">
-                  ⭐ Specialty
+                  ⭐ {t('specialty')}
                 </span>
               )}
               {item.isSpicy && (
                 <span className="inline-block px-2 py-0.5 text-xs bg-coral text-white rounded whitespace-nowrap">
-                  🌶️ Spicy
+                  🌶️ {t('spicy')}
                 </span>
               )}
             </div>

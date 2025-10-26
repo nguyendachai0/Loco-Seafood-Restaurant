@@ -11,38 +11,221 @@ declare const messages: {
   },
   "home": {
     "hero": {
-      "title": "바다의 최고 맛",
+      "title": "바다의 최고의 맛",
       "subtitle": "다낭 중심에서 즐기는 정통 베트남 해산물",
       "cta": "테이블 예약하기"
     },
     "about": {
-      "title": "바다에서 바로 신선하게",
-      "description": "Loco Seafood에서는 매일 신선한 해산물을 전통 베트남 방식과 현대 요리 기술로 준비합니다. 품질과 진정성에 대한 우리의 약속은 다낭 최고의 해산물 맛집으로 자리 잡게 했습니다."
+      "title": "바다에서 식탁으로",
+      "description": "로코 레스토랑은 매일 신선한 해산물을 전통 베트남 조리법과 현대적인 감각으로 선보입니다. 품질과 진정성에 대한 우리의 헌신은 로코를 다낭 최고의 해산물 레스토랑으로 만들었습니다."
     },
     "specialties": {
-      "title": "대표 요리",
-      "subtitle": "우리의 마스터 셰프가 만든 시그니처 요리"
+      "title": "대표 메뉴",
+      "subtitle": "셰프가 직접 준비한 시그니처 요리"
     },
     "cta": {
-      "title": "잊지 못할 다이닝 경험을 준비하세요",
-      "description": "점심이나 저녁 식사로 방문하셔서 신선하고 고급 재료가 만들어내는 차이를 느껴보세요.",
-      "button": "지금 테이블 예약하기"
+      "title": "잊지 못할 다이닝을 경험해 보세요",
+      "description": "점심 또는 저녁 식사로 신선한 재료가 선사하는 차이를 느껴보세요.",
+      "button": "지금 예약하기"
     }
   },
   "menu": {
     "title": "메뉴",
-    "subtitle": "신선한 해산물 요리를 탐험해보세요",
+    "subtitle": "신선한 해산물 요리를 만나보세요",
     "orderOnline": "배달 주문하기",
-    "specialty": "셰프 추천 요리",
-    "spicy": "매운맛"
+    "orderOnlineDescription": "좋아하는 요리를 집에서 즐기세요",
+    "specialty": "셰프 추천",
+    "spicy": "매운맛",
+    "breadcrumb": {
+      "menu": "메뉴",
+      "alacarte": "일품요리 메뉴"
+    },
+    "reserveTitle": "함께 식사하세요",
+    "reserveDescription": "잊지 못할 다이닝 경험을 위해 테이블을 예약하세요",
+    "reserve": "테이블 예약"
+  },
+  "menuHub": {
+    "hero": {
+      "title": "완벽한 메뉴를 찾아보세요",
+      "subtitle": "당신의 특별한 순간에 어울리는 다이닝을 선택하세요"
+    },
+    "alacarte": {
+      "title": "일품요리 메뉴",
+      "description": "신선한 해산물과 특별 요리를 매일 제공합니다 (매장 또는 포장 가능)",
+      "feature1": "매일 바다에서 온 신선한 재료와 계절별 요리",
+      "feature2": "매장 식사, 포장, 배달 모두 가능",
+      "feature3": "개인 및 소규모 모임에 적합",
+      "cta": "오늘의 메뉴 보기"
+    },
+    "gala": {
+      "title": "갈라 디너 & 이벤트",
+      "description": "기업 행사 및 개인 모임을 위한 맞춤형 다코스 세트 메뉴",
+      "feature1": "최소 50인 이상 예약 가능",
+      "feature2": "3가지 프리미엄 패키지 제공",
+      "feature3": "행사 기획 및 전담 코디네이션 포함",
+      "cta": "이벤트 패키지 보기"
+    },
+    "tour": {
+      "title": "투어 파트너 메뉴",
+      "description": "여행사 및 투어 운영사를 위한 전용 단체 메뉴 및 요금제",
+      "feature1": "B2B 특별 요금 및 커미션 제공",
+      "feature2": "대규모 단체를 위한 효율적인 서비스",
+      "feature3": "검증된 파트너 전용 프로그램",
+      "cta": "파트너 신청하기"
+    },
+    "help": {
+      "title": "메뉴 선택이 어려우신가요?",
+      "description": "고객님의 필요에 맞는 완벽한 메뉴 선택을 도와드립니다",
+      "cta": "문의하기"
+    }
+  },
+  "galaMenu": {
+    "breadcrumb": "갈라 디너 & 이벤트",
+    "hero": {
+      "title": "갈라 디너 & 이벤트",
+      "subtitle": "당신의 특별한 날을 더욱 빛내는 잊지 못할 다이닝 경험",
+      "cta": "견적 요청하기",
+      "downloadPdf": "메뉴 PDF 다운로드"
+    },
+    "packages": {
+      "title": "이벤트 패키지",
+      "subtitle": "행사에 맞는 완벽한 패키지를 선택하세요",
+      "perPerson": "/ 1인",
+      "courses": "코스",
+      "minGuests": "최소 50인 이상",
+      "mostPopular": "가장 인기",
+      "requestQuote": "견적 요청하기"
+    },
+    "gallery": {
+      "title": "행사 갤러리",
+      "subtitle": "최근 기업 행사 및 축하 행사",
+      "view": "보기"
+    },
+    "quoteForm": {
+      "title": "행사 견적 요청",
+      "name": "성함",
+      "company": "회사/단체명",
+      "email": "이메일",
+      "phone": "연락처",
+      "eventDate": "행사 날짜",
+      "guestCount": "예상 인원",
+      "guestSelect": "선택하세요...",
+      "guests50_100": "50-100명",
+      "guests100_200": "100-200명",
+      "guests200_300": "200-300명",
+      "guests300plus": "300명 이상",
+      "details": "추가 요청사항",
+      "detailsPlaceholder": "행사 내용, 선호하는 패키지, 식이 제한사항 등을 알려주세요",
+      "note": "행사 담당팀이 24시간 이내에 자세한 견적과 메뉴 옵션을 안내해드립니다",
+      "cancel": "취소",
+      "submit": "요청하기"
+    }
+  },
+  "tourMenu": {
+    "breadcrumb": "투어 파트너 메뉴",
+    "hero": {
+      "title": "투어 파트너 프로그램",
+      "subtitle": "여행사 및 투어 운영사를 위한 전용 메뉴와 특별 요금 혜택",
+      "cta": "접근 권한 요청",
+      "partnerOnly": "B2B 투어 파트너 전용",
+      "accessGranted": "접근 권한 승인 - 이메일로 PDF를 확인하세요"
+    },
+    "benefits": {
+      "title": "파트너십의 장점",
+      "subtitle": "검증된 투어 운영사를 위한 특별 혜택",
+      "items": [
+        {
+          "title": "경쟁력 있는 요금",
+          "description": "투어 운영사를 위한 특별 단체 가격과 볼륨 할인"
+        },
+        {
+          "title": "신속한 서비스",
+          "description": "대규모 단체를 위한 사전 설정 메뉴로 효율적인 서비스"
+        },
+        {
+          "title": "유연한 옵션",
+          "description": "다양한 투어 패키지에 맞는 메뉴 등급"
+        },
+        {
+          "title": "수수료 구조",
+          "description": "검증된 파트너를 위한 매력적인 수수료율"
+        }
+      ]
+    },
+    "menuOverview": {
+      "title": "메뉴 등급 개요",
+      "subtitle": "모든 투어 패키지에 맞는 유연한 옵션",
+      "mostPopular": "가장 인기",
+      "tiers": {
+        "standard": {
+          "name": "스탠다드",
+          "price": "180,000 VND",
+          "courses": "3"
+        },
+        "deluxe": {
+          "name": "디럭스",
+          "price": "280,000 VND",
+          "courses": "4"
+        },
+        "premium": {
+          "name": "프리미엄",
+          "price": "380,000 VND",
+          "courses": "5"
+        }
+      },
+      "courses": "코스",
+      "per": "1인당",
+      "requestAccess": "전체 내용을 보려면 접근 권한을 요청하세요"
+    },
+    "cta": {
+      "title": "파트너가 되시겠습니까?",
+      "subtitle": "신뢰할 수 있는 투어 운영사와 여행사 네트워크에 참여하세요",
+      "requestAccess": "파트너 접근 권한 요청",
+      "contactTeam": "파트너십 팀 문의"
+    },
+    "form": {
+      "title": "투어 파트너 접근 권한 요청",
+      "subtitle": "전체 투어 파트너 메뉴와 가격을 받으려면 양식을 작성하세요",
+      "name": "성함",
+      "company": "회사명",
+      "email": "업무용 이메일",
+      "phone": "연락처",
+      "companyType": "회사 유형",
+      "companyTypePlaceholder": "사업 유형을 선택하세요...",
+      "companyTypes": {
+        "tourOperator": "투어 운영사",
+        "travelAgency": "여행사",
+        "hotelConcierge": "호텔/리조트 컨시어지",
+        "corporateTravel": "기업 출장 관리",
+        "other": "기타 여행 사업"
+      },
+      "additionalInfo": "추가 정보",
+      "additionalInfoPlaceholder": "귀사의 사업 내용, 평균 단체 규모, 예약 빈도 등을 알려주세요",
+      "nextStepsTitle": "다음 단계",
+      "nextSteps": {
+        "step1": "1. 투어 파트너 메뉴 PDF를 즉시 이메일로 받아보실 수 있습니다",
+        "step2": "2. 파트너십 팀이 24시간 이내에 연락드립니다",
+        "step3": "3. 수수료 구조와 온보딩에 대해 논의하기 위한 통화 일정을 잡을 예정입니다"
+      },
+      "cancel": "취소",
+      "submit": "접근 권한 요청 및 PDF 다운로드"
+    },
+    "success": {
+      "title": "접근 권한 승인!",
+      "message": "이메일로 전체 투어 파트너 메뉴 PDF와 가격, 수수료 정보를 확인하세요.",
+      "contact": "파트너십 팀이 24시간 이내에 연락드립니다."
+    },
+    "alert": {
+      "success": "감사합니다! 투어 파트너 메뉴를 이메일로 보내드렸습니다. 파트너십 팀이 24시간 이내에 연락드립니다."
+    }
   },
   "location": {
-    "title": "방문하기",
-    "subtitle": "다낭 중심에서 찾아오세요",
+    "title": "오시는 길",
+    "subtitle": "다낭 중심부에서 저희를 찾아오세요",
     "address": "주소",
-    "addressLine": "123 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, 다낭, 베트남",
-    "hours": "영업 시간",
-    "phone": "전화",
+    "addressLine": "123 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Da Nang, Vietnam",
+    "hours": "영업시간",
+    "phone": "전화번호",
     "email": "이메일",
     "monday": "월요일",
     "tuesday": "화요일",
@@ -56,42 +239,46 @@ declare const messages: {
   },
   "contact": {
     "title": "문의하기",
-    "subtitle": "질문이 있으신가요? 연락주세요",
+    "subtitle": "궁금한 점이 있으신가요? 언제든 연락주세요",
     "name": "이름",
     "email": "이메일 주소",
     "phone": "전화번호",
     "message": "메시지",
-    "submit": "전송",
+    "submit": "보내기",
     "info": {
       "title": "연락처 정보",
       "address": "주소",
-      "phone": "전화",
+      "phone": "전화번호",
       "email": "이메일",
-      "hours": "영업 시간"
+      "hours": "영업시간"
     }
   },
   "reserve": {
     "title": "테이블 예약",
-    "subtitle": "미리 예약하여 특별한 식사를 즐기세요",
-    "name": "이름",
+    "subtitle": "특별한 다이닝 경험을 예약하세요",
+    "name": "성함",
     "email": "이메일 주소",
     "phone": "전화번호",
     "date": "예약 날짜",
-    "time": "희망 시간",
+    "time": "예약 시간",
+    "timeSelect": "시간 선택",
     "guests": "인원 수",
-    "specialRequests": "특별 요청 (선택 사항)",
+    "guest": "명",
+    "guests_plural": "명",
+    "specialRequests": "특별 요청사항 (선택 사항)",
+    "specialRequestsPlaceholder": "식이 제한, 알레르기 또는 특별한 기념일이 있으신가요?",
     "submit": "예약 확인",
-    "note": "예약 확인 이메일은 24시간 내로 보내드립니다"
+    "note": "예약 확인 메일은 24시간 이내에 발송됩니다"
   },
   "footer": {
     "about": {
-      "title": "Loco Seafood",
-      "description": "다낭에서 정통 베트남 해산물 요리를 즐길 수 있는 최고의 장소입니다."
+      "title": "로코 레스토랑",
+      "description": "정통 베트남 해산물 요리를 즐길 수 있는 다낭 최고의 레스토랑입니다."
     },
     "contact": "연락처 정보",
-    "hours": "영업 시간",
+    "hours": "영업시간",
     "follow": "팔로우하기",
-    "copyright": "© 2025 Loco Seafood. 모든 권리 보유."
+    "copyright": "© 2025 로코 레스토랑. All rights reserved."
   }
 };
 export default messages;

@@ -126,7 +126,7 @@ export default function ReservePage() {
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ocean focus:border-transparent text-navy"
                   >
-                    <option value="">Select time</option>
+                    <option value="">{t('timeSelect')}</option>
                     <option value="10:00">10:00 AM</option>
                     <option value="10:30">10:30 AM</option>
                     <option value="11:00">11:00 AM</option>
@@ -162,9 +162,9 @@ export default function ReservePage() {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ocean focus:border-transparent text-navy"
                 >
                   {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(num => (
-                    <option key={num} value={num}>{num} {num === 1 ? 'guest' : 'guests'}</option>
+                    <option key={num} value={num}>{num} {t(num === 1 ? 'guest' : 'guests_plural')}</option>
                   ))}
-                  <option value="10+">10+ guests</option>
+                  <option value="10+">10+ {t('guests_plural')}</option>
                 </select>
               </div>
 
@@ -178,7 +178,7 @@ export default function ReservePage() {
                   value={formData.specialRequests}
                   onChange={handleChange}
                   rows={4}
-                  placeholder="Any dietary restrictions, allergies, or special occasions?"
+                  placeholder={t('specialRequestsPlaceholder')}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ocean focus:border-transparent resize-none text-navy"
                 />
               </div>
